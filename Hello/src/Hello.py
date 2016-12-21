@@ -55,5 +55,9 @@ print answer
 
 # % Operator & format functions
 name='John'
+last='Smith'
 print "Hello, %s" % name
-print "Hello, {0}".format(name)
+print "Hello, {0} {1}".format(name,last)
+
+data = ('John', 'Doe', 53.44)
+print "Hello {0} {1} Your current balance is ${2}".format(data)
